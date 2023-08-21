@@ -1,4 +1,4 @@
-# NPCAI Llama.cpp Benchmark
+# NPCAI Llama Benchmark
 
 This directory contains a benchmark script for Llama models. Please refer to this document for how to install a Llama model and run the benchmark script against it.
 
