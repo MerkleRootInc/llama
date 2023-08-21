@@ -4,6 +4,7 @@ from typing import Optional
 from llama import Llama
 
 def main(
+    ckpt_dir: str,
     tokenizer_path: str,
     temperature: float = 0.6,
     top_p: float = 0.9,
