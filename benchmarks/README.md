@@ -2,11 +2,20 @@
 
 This directory contains a benchmark script for Llama models. Please refer to this document for how to install a Llama model and run the benchmark script against it.
 
-## Step 1: Install the repo and the model
+## Step 1: Install git
+
+Run the follow command:
+
+```
+sudo apt-get update
+sudo apt-get install git
+```
+
+## Step 2: Clone the repo and download the model
 
 See instructions for downloading the model of your choice [here](https://github.com/NPCAI-Studio/llama/blob/main/README.md).
 
-## Step 2: Install dependencies
+## Step 3: Install dependencies
 
 Run the follow command:
 
@@ -14,7 +23,7 @@ Run the follow command:
 pip install -e .
 ```
 
-## Step 3: Run the benchmark
+## Step 4: Run the benchmark
 
 Run the following command from the root directory of this repository:
 
