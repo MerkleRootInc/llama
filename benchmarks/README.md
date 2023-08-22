@@ -7,6 +7,7 @@ This directory contains a benchmark script for Llama models. Please refer to thi
 Run the following commands:
 
 ```
+sudo apt-get update
 sudo apt-get install python3.10
 sudo apt install python3-pip
 ```
@@ -16,7 +17,6 @@ sudo apt install python3-pip
 Run the follow command:
 
 ```
-sudo apt-get update
 sudo apt-get install git
 ```
 
@@ -24,7 +24,7 @@ sudo apt-get install git
 
 See instructions for downloading the model of your choice [here](https://github.com/NPCAI-Studio/llama/blob/main/README.md).
 
-## Step 4: Install dependencies
+Once in the downloaded directory, install the dependencies by running the following command:
 
 Run the follow command:
 
@@ -32,7 +32,7 @@ Run the follow command:
 pip install -e .
 ```
 
-## Step 5: Run the benchmark
+## Step 4: Run the benchmark
 
 Run the following command from the root directory of this repository:
 
